@@ -1,0 +1,281 @@
+/******Geneneral Styling******/
+
+body{
+    margin: 0;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    min-height: 100vh;
+    text-align: center;
+}
+
+figure{
+    margin: 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2{
+    color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #f2f2f2;
+    font-size: 20px;
+    background: #4e4a79;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.floating_text{
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+}
+
+.floating_text2{
+    position: absolute;
+    z-index: 1;
+    top:50px;
+    left: 150px;
+}
+
+.bg_figure{
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bg_figure:hover{
+-webkit-transform:scale(1.01, 1.01);
+-moz-transform:scale(1.01, 1.01);
+-ms-transform:scale(1.01, 1.01);
+-o-transform:scale(1.01, 1.01);
+transform:scale(1.01, 1.01);
+}
+
+.bg_figure_no{
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/******Button Styling******/
+
+.next-button{
+    z-index: 1;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #f2f2f2;
+    font-size: 20px;
+    background: #474747;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .next-button:hover {
+    background: #9b91c2;
+    text-decoration: none;
+  }
+
+#tv_scene_button{
+    position: static;
+}
+
+#get_ready_botton{
+    position: absolute;
+    top: 300px;
+    right: 250px;
+}
+
+#find_closet{
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 400px;
+}
+
+#open_closet{
+    position: absolute;
+    top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#pick_clothes_button{
+    position: absolute;
+    top: 0px;
+    right: 550px;
+}
+
+#get_going_button{
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+
+/******TV Scene Styling******/
+.TV_scene{
+    background-color: #4f7da1;
+}
+
+.remote{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.remotehand{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#before_remote:hover{
+    -webkit-transform:scale(1.01, 1.01);
+    -moz-transform:scale(1.01, 1.01);
+    -ms-transform:scale(1.01, 1.01);
+    -o-transform:scale(1.01, 1.01);
+    transform:scale(1.01, 1.01);
+}
+
+/******Bedroom Scene Styling******/
+.bedroom_scene{
+    background-color: #4f7da1;
+}
+
+#closet{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#closet:hover{
+    -webkit-transform:scale(1.05, 1.05);
+    -moz-transform:scale(1.05, 1.05);
+    -ms-transform:scale(1.05, 1.05);
+    -o-transform:scale(1.05, 1.05);
+    transform:scale(1.05, 1.05);
+}
+
+/*******Closet Scene Styling**********/
+
+.clothes{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.clothes_item{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.clothes_item:hover{
+    -webkit-transform:scale(1.05, 1.05);
+    -moz-transform:scale(1.05, 1.05);
+    -ms-transform:scale(1.05, 1.05);
+    -o-transform:scale(1.05, 1.05);
+    transform:scale(1.05, 1.05);
+}
+
+#closet_wrapper{
+    position: absolute;
+    max-width: 1280px;
+    min-height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closet_bg{
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/**********Clothes************/
+
+#pants{
+    position: absolute;
+    top: 408px;
+    left: 455px;
+    width: 150px;
+}
+
+#pantsgone{
+    animation-name: myAnimation;
+    animation-duration: 3s;
+}
+
+#mask{
+    position: absolute;
+    top: 150px;
+    left: 175px;
+    width: 160px;
+    
+}
+
+#kunai{
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    width: 160px;
+    
+}
+
+#shirt{
+    position: absolute;
+    top: 150px;
+    left: 595px;
+    width: 240px;
+    
+}
+
+#cape{
+    position: absolute;
+    top: 60px;
+    left: 860px;
+    height: 500px;
+}
+
+#shoes{
+    position: absolute;
+    top: 480px;
+    left: 670px;
+    height: 200px;
+}
+
+@keyframes myAnimation{
+    from {background-color:red}
+    to {background-color: yellow;}
+}
+
+#javascript{
+    z-index: 1;
+}
+
